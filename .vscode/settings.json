@@ -1,0 +1,39 @@
+{
+  "cmake.configureOnOpen": false,
+  "cmake.statusbar.advanced": {
+    "debug" : {
+      "visibility": "hidden"
+              },
+    "launch" : {
+      "visibility": "hidden"
+               },
+    "build" : {
+      "visibility": "hidden"
+               },
+    "buildTarget" : {
+      "visibility": "hidden"
+               },
+     },
+     "cmake.buildBeforeRun": true,
+     "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+     "cortex-debug.openocdPath": "/opt/homebrew/bin/openocd",
+    "cortex-debug.gdbPath": "arm-none-eabi-gdb",
+    "C_Cpp.errorSquiggles": "enabled",
+    "files.associations": {
+        "stdlib.h": "c",
+        "complex": "c",
+        "format": "c",
+        "compare": "cpp",
+        "cstdint": "cpp",
+        "sample1-16bit-16k.h": "c",
+        "sample6-s16bit-16k.h": "c",
+        "sample02-s16bit-16k.h": "c",
+        "button.h": "c",
+        "adc.h": "c",
+        "stdio.h": "c",
+        "math.h": "c",
+        "audio_i2s.h": "c",
+        "string_view": "c",
+        "sync.h": "c"
+    },
+}

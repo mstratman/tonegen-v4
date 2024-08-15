@@ -22,8 +22,6 @@ my $num_samples = $read->length_samples;
 say "#define NUM_SAMPLE${N}_ELEMENTS $num_samples";
 say "const int16_t sample${N}\[NUM_SAMPLE${N}_ELEMENTS\] = {";
 
-my $b;
-#use Data::Dumper;
 my $total = 0;
 my $col = 0;
 my $n = 0;

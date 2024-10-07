@@ -189,6 +189,13 @@ int main() {
     set_tone_num(settings.tone_num);
     set_sample_num(settings.sample_num);
     mode = settings.mode;
+    if (mode == MODE_SAMPLE) {
+        gpio_put(PIN_LED_TONE, 0);
+        gpio_put(PIN_LED_SAMPLE, 1);
+    } else {
+        gpio_put(PIN_LED_TONE, 1);
+        gpio_put(PIN_LED_SAMPLE, 0);
+    }
     
     PF("PICO_FLASH_SIZE_BYTES=%d", PICO_FLASH_SIZE_BYTES);
 
